@@ -1,0 +1,26 @@
+class BankInfo{
+  
+  String? bankname;
+  final String username;
+  late final bool isAlive;
+  String? gender;
+  int? age;
+  num? _balance;
+  final num? accNumber;
+  
+  BankInfo(this.bankname,this.username,this.isAlive,this.gender,this._balance,this.accNumber,this.age);
+  
+  //Methods 
+  
+   String getuserName(String name){
+     
+     return this.username;
+   }
+ 
+   String setuserName(String name){
+     
+     this.username = setuserName;
+     return username;
+   }
+  
+}
